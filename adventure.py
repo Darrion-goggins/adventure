@@ -6,20 +6,19 @@ print("Oh. Well it's nice to meet you,", name)
 time.sleep(3)
 print("Hey,", name, "are you still there?")
 time.sleep(3)
-print("""Would you like to play a game? Y/N. 
-    Keep in mind that all responses are case sensitive and must be capitalized for them to properly run""")
+print("Would you like to play a game? Y/N\nKeep in mind that all responses are case sensitive and must be capitalized for them to properly run")
 
 choice = input()
 
 def aLittleAdventure():
-    mainTimeLine = input("You are a new adventurer who wants to join an upcoming guild. You go to the guild hall when there is an old lady who asks for help. Will you help her? Y/N.")
+    mainTimeLine = input("You are a new adventurer who wants to join an upcoming guild.\nYou go to the guild hall when there is an old lady who asks for help. Will you help her? Y/N.")
 
     if (mainTimeLine == "Y"):
 
-        timeLineA = input("You decide to help the old lady and go to her, asking what is wrong. She claims that someone had stolen her purse, and points to an individual about half a block away who is running. Do you pursue them? Y/N")
+        timeLineA = input("You decide to help the old lady and go to her, asking what is wrong.\nShe claims that someone had stolen her purse, and points to an individual about half a block away who is running.\n Do you pursue them? Y/N")
 
         if (timeLineA == "Y"):
-            print("""You quickly catch up to the man in an alley, the man looks to you, voice shaking and afraid, 'Please, I need to feed my family!' You don't care, the man still stole and you turn him into the guards. The guards tell you that you would make a great addition yourself. You join their ranks and become captain in a few short years. You still think back about what if you had become an adventurer though. MEH ENDING""")
+            print("""You quickly catch up to the man in an alley, the man looks to you, voice shaking and\n afraid, 'Please, I need to feed my family!' You don't care, the man still stole and you turn him\n into the guards. The guards tell you that you would make a great addition yourself. You join their\n ranks and become captain in a few short years. You still think back about what if you had become an adventurer though. MEH ENDING""")
 
         else: print("On second thought, you don't really feel like it. You walk away from the old woman and slip on a banana peel,   breaking your leg and your adventuring days are over. You become an obnoxious villager constantly telling new adventurers, 'I was once an adventurer like you, before I took a banana peel to the knee.' Your antics get so old so fast you are exiled from the village. BAD ENDING")
     
